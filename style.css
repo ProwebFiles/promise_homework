@@ -1,0 +1,39 @@
+body {
+    background: black;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    gap: 14px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.info__title {
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+}
